@@ -1,0 +1,106 @@
+{
+  "stationCollection": [
+    {
+      "stationName": "Tramore",
+      "id": "01",
+      "readings": [
+        {
+          "id": "03",
+          "code": 800,
+          "temp": 15.5,
+          "windSpeed": 3.5,
+          "windDirection": 220,
+          "pressure": 1001
+        },
+        {
+          "id": "04",
+          "code": 600,
+          "temp": 16.5,
+          "windSpeed": 2,
+          "windDirection": 200,
+          "pressure": 1004
+        },
+        {
+          "id": "05",
+          "code": 700,
+          "temp": 17.3,
+          "windSpeed": 1,
+          "windDirection": 90,
+          "pressure": 1000,
+          "tempFar": "63.1",
+          "beaufourt": 1
+        }
+      ],
+      "latestReading": {
+        "id": "05",
+        "code": 700,
+        "temp": 17.3,
+        "windSpeed": 1,
+        "windDirection": 90,
+        "pressure": 1000,
+        "tempFar": "63.1",
+        "beaufourt": 1
+      }
+    },
+    {
+      "stationName": "Dunmore",
+      "id": "02",
+      "readings": [
+        {
+          "id": "06",
+          "code": 700,
+          "temp": 15.5,
+          "windSpeed": 3.5,
+          "windDirection": 140,
+          "pressure": 1005
+        },
+        {
+          "id": "07",
+          "code": 600,
+          "temp": 18.5,
+          "windSpeed": 1.5,
+          "windDirection": 70,
+          "pressure": 1002
+        },
+        {
+          "id": "08",
+          "code": 800,
+          "temp": 15.5,
+          "windSpeed": 1,
+          "windDirection": 240,
+          "pressure": 1000,
+          "tempFar": "59.9",
+          "beaufourt": 1
+        }
+      ],
+      "latestReading": {
+        "id": "08",
+        "code": 800,
+        "temp": 15.5,
+        "windSpeed": 1,
+        "windDirection": 240,
+        "pressure": 1000,
+        "tempFar": "59.9",
+        "beaufourt": 1
+      }
+    },
+    {
+      "id": "7f28ca00-257e-11ed-979d-0fddce1b0d95",
+      "stationName": "Kinsale",
+      "readings": [
+        {
+          "id": "93bec220-257f-11ed-a9cd-1376f5b30736",
+          "code": "600",
+          "temp": "23",
+          "windSpeed": "5",
+          "pressure": "1001"
+        }
+      ]
+    },
+    {
+      "id": "06918db0-257f-11ed-95a3-177ca81dcab7",
+      "stationName": "Cobh",
+      "readings": []
+    }
+  ]
+}

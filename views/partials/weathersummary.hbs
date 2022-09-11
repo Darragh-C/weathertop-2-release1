@@ -1,0 +1,53 @@
+<div class="ui centered equal width grid">
+  <div class="row">
+    <div class="column">
+      <div class="ui segment">
+        <h3>Weather</h3>
+        <i class="huge blue right floated {{latestReading.weatherIcon}} icon"></i>
+        <br>
+        <br>
+        {{latestReading.weather}}
+        <br>
+        <br>
+        <br>
+      </div>
+    </div>
+    <div class="column">
+      <div class="ui segment">
+        <h3>Temp</h3>
+        <i class="huge grey temperature low icon"></i>
+        <br>
+        <br>
+        {{latestReading.temp}} C or {{latestReading.tempFar}} F
+        <br>
+        <br>
+        <br>
+      </div>
+    </div>
+    <div class="column">
+      <div class="ui segment">
+        <h3>Wind speed</h3>
+        <i class="huge grey wind icon"></i>
+        <br>
+        <br>
+        {{latestReading.beaufourt}} Bft
+        <br>
+        Wind direction: {{latestReading.windDirection}}
+        <br>
+        Feels like: {{latestReading.windChill}}
+      </div>
+    </div>
+    <div class="column">
+      <div class="ui segment">
+        <h3>Pressure</h3>
+        <i class="huge grey tachometer alternate icon"></i>
+        <br>
+        <br>
+        {{latestReading.pressure}} hPa
+        <br>
+        <br>
+        <br>
+      </div>
+    </div>
+  </div>
+</div>
